@@ -1,2 +1,2 @@
-# treecoin
+# TREE Coin
 treecoin cryptocurrency with go
