@@ -17,5 +17,4 @@ func main() {
 		fmt.Printf("Prev Hash: %s\n", block.PrevHash)
 
 	}
-
 }
