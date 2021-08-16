@@ -16,8 +16,6 @@ type blockchain struct {
 	blocks []*block
 }
 
-//
-
 var b *blockchain
 var once sync.Once
 
