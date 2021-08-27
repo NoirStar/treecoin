@@ -32,7 +32,6 @@ func getLastHash() string {
 	return GetBlockchain().blocks[totalBlocks-1].Hash
 }
 
-//
 func createBlock(data string) *block {
 	newBlock := block{data, "", getLastHash()}
 	newBlock.calculateHash()
